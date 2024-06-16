@@ -17,17 +17,6 @@ class PascalTriangleTest {
 
             assertEquals(1, (int) firstRow.get(0));
         }
-    @Test
-    void testGenerateWithOneRow1(){
-        PascalTriangle pascalTriangle = new PascalTriangle();
-        List<List<Integer>> result = pascalTriangle.generate(1);
-
-        assertEquals(1, result.size());
-
-        List<Integer> firstRow = result.get(0);
-
-        assertEquals(1, (int) firstRow.get(0));
-    }
 
         @Test
         void testGenerateWithTwoRows(){
